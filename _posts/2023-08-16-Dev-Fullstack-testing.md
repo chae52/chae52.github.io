@@ -7,7 +7,8 @@ categories:
 tags:
   - [Full stack, test, testing]
 
-permalink: /Dev/[Dev] [Dev] Full stack Testing : 풀스택 테스팅/
+
+permalink: /Dev/[Dev] [Dev] Full stack Testing/
 
 toc: true
 toc_sticky: true
