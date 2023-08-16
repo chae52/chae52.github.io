@@ -12,8 +12,8 @@ permalink: /Dev/[Dev] Git Flow 적용. Git Flow & Github Flow/
 toc: true
 toc_sticky: true
 
-date: 2022-08-16
-last_modified_at: 2022-08-16
+date: 2023-08-16
+last_modified_at: 2023-08-16
 ---
 
 ## Git 

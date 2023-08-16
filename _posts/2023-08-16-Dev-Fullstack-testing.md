@@ -1,20 +1,19 @@
 ---
 title: "[Dev] Full stack Testing : 풀스택 테스팅"
-excerpt: "풀스택 테스팅이란"
+excerpt: "풀스택 테스팅 & 시프트 레스트 테스팅"
 
 categories:
   - Dev
 tags:
   - [Full stack, test, testing]
 
-
-permalink: /Dev/[Dev] [Dev] Full stack Testing/
+permalink: /Dev/[Dev] Full stack Testing/
 
 toc: true
 toc_sticky: true
 
-date: 2022-08-16
-last_modified_at: 2022-08-16
+date: 2023-08-16
+last_modified_at: 2023-08-16
 ---
 
 # 풀스택 테스트 : Fullstack Test
