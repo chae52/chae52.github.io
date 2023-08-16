@@ -1,5 +1,5 @@
 ---
-title: "[Dev] Github Flow 적용. Git Flow & Github Flow"
+title: "[Dev] Git Flow 적용. Git Flow & Github Flow"
 excerpt: "Git Flow 와 Github Flow"
 
 categories:
@@ -7,7 +7,7 @@ categories:
 tags:
   - [Git Flow, Github Flow]
 
-permalink: /Dev/[Dev] Github Flow 적용. Git Flow & Github Flow/
+permalink: /Dev/[Dev] Git Flow 적용. Git Flow & Github Flow/
 
 toc: true
 toc_sticky: true
@@ -16,7 +16,7 @@ date: 2022-08-16
 last_modified_at: 2022-08-16
 ---
 
-## 🦥 본문
+## Git 
 
 ## Reference
 - [우아한 기술 블로그](https://techblog.woowahan.com/2553/)
