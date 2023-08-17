@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "Home"
-    url: https://choiiis.github.io/
+    url: https://chae52.github.io/
 
   - title: "About"
     url: /about/
 
   - title: "GitHub"
-    url: https://github.com/choiiis
+    url: https://github.com/chae52
 
   # - title: "Projects"
   #   url: /projects/
@@ -20,8 +20,8 @@ main:
 categories:
   - title: "Dev"
     url: /categories/Dev/
-  - title: "Categories2"
-    url: /categories/categories2/
+  - title: "Language"
+    url: /categories/Language/
   - title: "Categories3"
     url: /categories/categories3/
   - title: "Categories4"
