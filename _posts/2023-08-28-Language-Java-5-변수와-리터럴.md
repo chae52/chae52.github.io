@@ -1,6 +1,6 @@
 ---
 title: "[즐거운 자바] 변수와 리터럴"
-excerpt: "IntelliJ, Project 생성"
+excerpt: "키워드, 변수, 타입"
 
 categories:
   - Language
@@ -34,9 +34,10 @@ last_modified_at: 2023-08-28
 # 변수
 = 하나의 값을 가질 수 있는 공간
 
-'''
+```
 int i = 1;
-'''
+```
+
 - 변수명 : 변수의 이름 : `i`
 - 리터럴 : 변수에 입력되는 값 : `1`
 <img width="686" alt="image" src="https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/478651ee-ed1e-43c4-b856-3f616e081624">
@@ -49,9 +50,10 @@ int i = 1;
 ## 선언
 - 한 줄에도 표현 가능, 각각도 표현 가능
 - 아무것도 적지 않으면 기본으로 0임
-'''
+
+```
 int x=5;
 int y=2;
 
 int x=5, y=2;
-'''
+```
