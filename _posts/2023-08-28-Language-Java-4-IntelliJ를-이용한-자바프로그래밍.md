@@ -26,6 +26,6 @@ last_modified_at: 2023-08-28
 - 개발을 시작할 때 프로젝트 안에서 작업하게 된다
 - `New Project` -> `Java`를 선택
 - tree 명령어로 폴더 구조를 한 눈에 볼 수 있음
-```
+<pre><code>
 brew install tree
-```
+</code></pre>
