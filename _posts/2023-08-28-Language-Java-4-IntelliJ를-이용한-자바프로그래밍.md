@@ -27,4 +27,6 @@ last_modified_at: 2023-08-28
 - `New Project` -> `Java`를 선택
 - tree 명령어로 폴더 구조를 한 눈에 볼 수 있음
 
-    brew install tree
+```bash
+brew install tree
+```
