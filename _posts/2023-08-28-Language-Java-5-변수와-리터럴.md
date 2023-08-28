@@ -1,0 +1,57 @@
+---
+title: "[즐거운 자바] 변수와 리터럴"
+excerpt: "IntelliJ, Project 생성"
+
+categories:
+  - Language
+tags:
+  - [java, 즐거운 자바, inflearn, 변수,리터럴]
+
+permalink: /Language/변수와-리터럴/
+
+toc: true
+toc_sticky: true
+
+date: 2023-08-28
+last_modified_at: 2023-08-28
+---
+# 키워드 : keyword
+= 예약어
+- ex) public, class, static, while, int
+- 데이터 타입
+  - 기본형 타입
+    - 첫 번째 글자가 소문자이다
+    - 크기(메모리)를 가지고 있다(ex. 4byte)
+    - 메모리에 값이 저장된다
+    - ex) int, string, boolean
+    정리 : 정해진 크기의 메모리를 확보하고 `값을 가진다`
+  - 참조형 타입(레퍼런스 타입)
+    - 기본형이 아닌 타입
+    - 첫 번째 글자가 대문자이다
+    - class, interface 등
+    - `값을 참조한다`
+
+# 변수
+= 하나의 값을 가질 수 있는 공간
+
+'''
+int i = 1;
+'''
+- 변수명 : 변수의 이름 : `i`
+- 리터럴 : 변수에 입력되는 값 : `1`
+<img width="686" alt="image" src="https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/478651ee-ed1e-43c4-b856-3f616e081624">
+- 위와 같이 저장 됨
+
+## 변수명
+- 키워드는 사용 불가
+하나 이상의 글자
+
+## 선언
+- 한 줄에도 표현 가능, 각각도 표현 가능
+- 아무것도 적지 않으면 기본으로 0임
+'''
+int x=5;
+int y=2;
+
+int x=5, y=2;
+'''

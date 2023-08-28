@@ -1,6 +1,6 @@
 ---
 title: "[즐거운 자바] hello의 동작원리"
-excerpt: "본문의 주요 내용을 여기에 입력하세요"
+excerpt: "class, method, field, compile"
 
 categories:
   - Language
