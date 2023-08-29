@@ -114,8 +114,6 @@ git remote -v
 # 마무리
 팀원의 Github Flow 사용기를 듣고 우리 팀에 잘 맞는 방식을 선택해야겠다!
 
-
-
 ### Reference
 - 실제 필요한 git 명령어
   - [git fetch upstream](https://my-codinglog.tistory.com/7)
