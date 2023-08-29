@@ -1,19 +1,19 @@
 ---
-title: "[DB] DB-Refactoring-필요성-및-근거-찾기"
+title: "[DB] DB Refactoring: 필요성 및 근거 찾기"
 excerpt: "왜 DB refactoring을 해야만 하는가? 방법, 절차, 근거"
 
 categories:
   - Dev
 tags:
-  - [Database, DB, refactoring,리팩토링, 이유, 근거, 필요성]
+  - [tag1, tag2]
 
-permalink: /Dev/DB Refactoring 필요성 및 근거 찾기/
+permalink: /Dev/post-name-here-3/
 
 toc: true
 toc_sticky: true
 
-date: 2023-08-30
-last_modified_at: 2023-08-30
+date: 2022-07-24
+last_modified_at: 2022-07-24
 ---
 # 서론
 DB Refactoring의 필요성이 팀 내에서 대두되었다. 내가 제안했다.  
@@ -73,7 +73,7 @@ DB Refactoring 절차 중 내가 하고 싶은 것만 골라 적었다..
 # 프로젝트에 적용
 ## 1. DB Smell
 정확히 일치하는 DB Smell이 있진 않지만 **Multi-Purpose Table** 라고 생각했다.
-> Multi-Purpose Table
+> Multi-Purpose Table   
   단일 테이블이 여러 유형의 엔티티를 저장하는데 사용
 처음 ERD를 설계할 때 해당 Json 열은 사실 하나의 Entity 였다.
 그래서 이런 문제 생겼다고 판단했다.
@@ -81,7 +81,7 @@ DB Refactoring 절차 중 내가 하고 싶은 것만 골라 적었다..
 
 ## 2. DB Refactoring 유형 선택
 `Multi-Purpose Table`을 해결하기 위해한 DB Refactoring 방법으로 `구조 리팩토링`이 적절하다고 생각했다.
-> 구조 리팩토링
+> 구조 리팩토링   
   데이터베이스 스키마의 테이블 구조 변경
 Json 열을 다시 하나의 Entity로 가정하여 새로운 테이블을 추가하는 방법을 생각했다.  
 하지만 이건 내 생각이지 근거가 부족한 것 같다.
