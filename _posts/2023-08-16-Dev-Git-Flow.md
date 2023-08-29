@@ -36,7 +36,8 @@ last_modified_at: 2023-08-30
 1. Local Repository에서 작업을 완료한다
 2. Origin Repository에 Push
 3. Origin Repository -> Upstream Repository 로 Pull Request
-![image](https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/1511230e-bf07-4e69-a495-d081268f9672)
+<img width="1028" alt="스크린샷 2023-08-30 오전 1 32 24" src="https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/ed95cde6-0ba7-486b-ad77-b00789f4ef41">
+
 4. Upstream Repository로 Merge
 5. Upstream Repository와 Local Repository pull(fetch)
 
@@ -46,14 +47,24 @@ last_modified_at: 2023-08-30
 1. Merge
   - 안전하다
   - 쉽다
+  - 공통조상 사용
 2. Rebase
   -  잘 모르고 사용하면 위험
   - 히스토리가 깔끔해진다
+  - Patch
+
 
 두 방법의 실행결과는 같지만 히스토리가 달라진다
+<img width="962" alt="스크린샷 2023-08-30 오전 2 09 41" src="https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/59e15ccd-feda-46c4-8f73-9d13f1b3b374">
 
-![image](https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/c9b1be3e-9d2f-4971-a70e-288ffba529d4)
-  
+#### 현 상황
+<img width="661" alt="image" src="https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/0b906245-d785-40bb-a7ab-870eba5fc776">
+
+#### Merge 시
+<img width="661" alt="image" src="https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/fb9d2b08-0c64-4557-a357-0ee84a838017">
+
+#### Rebase 시
+<img width="661" alt="image" src="https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/9e66f8e0-8ed7-41fd-8c99-2c5d9cfb2089">
 
 
 
@@ -63,7 +74,8 @@ last_modified_at: 2023-08-30
   그 정돈되지 않은 commit 로그가 우리팀의 방식인지 알아보기로 했기 때문이다
 - 태그 추가도 생략했다
 
-![image](https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/1511230e-bf07-4e69-a495-d081268f9672)
+<img width="480" alt="image" src="https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/c8c4f275-ed86-4e35-a85b-44cdf7960189">
+
 Git Flow를 사용하며 3번의 Pull Request를 넣었다.
 
 # 느낀 점
@@ -85,7 +97,8 @@ Origin Repository는 어차피 fork한 내 ID아래의 Repository이기 때문�
 
 ## 단점
 ### 1. Local repository에서 Upstream Repository의 clone본인지 Origin Repository의 clone 본인지 헷갈린다
-![image](https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/6097736e-23fc-4def-8c64-443a89536141)
+<img width="1028" alt="스크린샷 2023-08-30 오전 1 13 20" src="https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/ad7479df-9035-41c1-a204-9eea2e2ce45e">
+
 ```bash
 git remote -v
 ```
