@@ -51,7 +51,7 @@ last_modified_at: 2023-08-30
 2. Rebase
   -  잘 모르고 사용하면 위험
   - 히스토리가 깔끔해진다
-  - Patch
+  - Patch 사용
 
 
 두 방법의 실행결과는 같지만 히스토리가 달라진다
@@ -69,7 +69,7 @@ last_modified_at: 2023-08-30
 
 
 # 적용한 팀 방식
-- 해당 글을 따라가되, 여러 커밋이 나뉘어 있는 것을 squash 하지는 않았다
+- 해당 글을 따라가되, 여러 커밋이 나뉘어 있는 것을 squash 하지는 않았다.  
   더러운 commit 로그를 정리하지 않고, 왜 commit이 정돈되어야 하는지 필요성을 직접 느끼거나
   그 정돈되지 않은 commit 로그가 우리팀의 방식인지 알아보기로 했기 때문이다
 - 태그 추가도 생략했다
@@ -84,7 +84,7 @@ Git Flow를 사용하며 3번의 Pull Request를 넣었다.
 ## 장점
 ### 1. Upstream Repository에서 브랜치를 따서 하지 않고도 안전하다
 Origin Repository의 develop을 마치 Upstream Repository에서 feature 브랜치처럼
-사용할 수 있다는 것이었다
+사용할 수 있다는 것이었다.  
 물론 위의 블로그에서 제시한 정석의 방법은 아니지만 기능을 병렬적으로 만들고 있는 상황이 아니어서
 이렇게 develop을 feature의 기능처럼 사용할 수 있어서 좋았다.
 
@@ -92,7 +92,7 @@ Origin Repository의 develop을 마치 Upstream Repository에서 feature 브랜�
 위의 1번 장점과 연결되는데, Upstream Repository만 예쁘게 유지될 수 있도록 하고
 Origin Repository는 어차피 fork한 내 ID아래의 Repository이기 때문에 
 높은 강도의 관리에 노력을 쏟지 않았다. 예를 들어 브랜치 삭제나 네이밍 등에 대해 조금 관대해졌다.
-어차피 예쁜 Pull Request를 만든 이후에 다시 fork 해도 되니 마음이 편했다
+어차피 예쁜 Pull Request를 만든 이후에 다시 fork 해도 되니 마음이 편했다.
 
 
 ## 단점
@@ -102,7 +102,7 @@ Origin Repository는 어차피 fork한 내 ID아래의 Repository이기 때문�
 ```bash
 git remote -v
 ```
-위와 같은 명령어로 upstream과 origin을 알아볼 수 있긴 하다
+위와 같은 명령어로 upstream과 origin을 알아볼 수 있긴 하다.
 
 ### 2. Github Action 반복 설정
 아직 겪어보지 못 했지만, Github Flow를 사용했을 때는 브랜치마다 다른 것만 Secret 을 따로 만들고
@@ -119,4 +119,4 @@ git remote -v
 ### Reference
 - 실제 필요한 git 명령어
   - [git fetch upstream](https://my-codinglog.tistory.com/7)
-  - https://wonit.tistory.com/368
+  - [github 협업을 위한 fork 부터 upstream 설정까지.](https://wonit.tistory.com/368)
