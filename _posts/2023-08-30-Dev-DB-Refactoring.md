@@ -7,7 +7,7 @@ categories:
 tags:
   - [Database, DB, refactoring,리팩토링, 이유, 근거, 필요성]
 
-permalink: /Dev/DB-Refactoring-필요성-및-근거-찾기/
+permalink: /Dev/DB Refactoring 필요성 및 근거 찾기/
 
 toc: true
 toc_sticky: true
