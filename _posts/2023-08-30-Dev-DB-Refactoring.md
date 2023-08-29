@@ -1,6 +1,6 @@
 ---
 title: "[DB] DB-Refactoring-필요성-및-근거-찾기"
-excerpt: "왜 DB refactoring을 해야만 하는가?"
+excerpt: "왜 DB refactoring을 해야만 하는가? 방법, 절차, 근거"
 
 categories:
   - Dev
