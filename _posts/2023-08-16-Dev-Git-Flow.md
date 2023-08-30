@@ -33,6 +33,13 @@ last_modified_at: 2023-08-30
 <img width="797" alt="image" src="https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/627cd303-76e6-4d75-9f5e-de2b311de9d4">
 
 ## 작업 Flow
+```bash
+git init
+git remote add origin https://github.com/origin/server.git
+git remote add upstream https://github.com/upstream/server.git
+```
+위와 같이 먼저 origin과 upstream Repository 설정을 해주어야 한다.
+
 1. Local Repository에서 작업을 완료한다
 2. Origin Repository에 Push
 3. Origin Repository -> Upstream Repository 로 Pull Request
@@ -103,13 +110,6 @@ Origin Repository는 어차피 fork한 내 ID아래의 Repository이기 때문�
 git remote -v
 ```
 위와 같은 명령어로 upstream과 origin을 알아볼 수 있긴 하다.
-
-### 2. Github Action 반복 설정
-아직 겪어보지 못 했지만, Github Flow를 사용했을 때는 브랜치마다 다른 것만 Secret 을 따로 만들고
-나머지 공통으로 사용하는 것은 branch를 만든다고 다시 secret을 등록할 필요는 없었다.
-
-하지만 Git Flow를 사용한다면 Secret이 생길 때마다 Upstream Repository와 Origin Repository에
-반복적으로 등록해야 한다는 것이 불편할 것으로 예상된다.
 
 # 마무리
 팀원의 Github Flow 사용기를 듣고 우리 팀에 잘 맞는 방식을 선택해야겠다!
