@@ -41,6 +41,8 @@ update가 자주 일어나면 이후에 쿼리를 수정할 때도 그 쿼리를
 
 ## 데이터 리팩토링 필요성
 ![image](https://github.com/choiiis/minimal-mistakes-choiiis-customized/assets/41178045/8e079b85-19ae-46d8-828b-5fe536aaaea1)
+
+
 이건 지식적인 부분인 것 같고, 나는 `개발자의 불편함`도 추가하고 싶다.
 `개발자의 불편함`을 수치화하여 내 고통을 드러내고 해결하는 것이 목표이다.
 
@@ -75,6 +77,8 @@ DB Refactoring 절차 중 내가 하고 싶은 것만 골라 적었다..
 ## 1. DB Smell
 정확히 일치하는 DB Smell이 있진 않지만 **Multi-Purpose Table** 라고 생각했다.
 > **Multi-Purpose Table**
+
+
   단일 테이블이 여러 유형의 엔티티를 저장하는데 사용
 
 처음 ERD를 설계할 때 해당 Json 열은 사실 하나의 Entity 였다.
@@ -84,8 +88,10 @@ DB Refactoring 절차 중 내가 하고 싶은 것만 골라 적었다..
 ## 2. DB Refactoring 유형 선택
 `Multi-Purpose Table`을 해결하기 위해한 DB Refactoring 방법으로 `구조 리팩토링`이 적절하다고 생각했다.
 > **구조 리팩토링**
+
+
   데이터베이스 스키마의 테이블 구조 변경
-  
+
 Json 열을 다시 하나의 Entity로 가정하여 새로운 테이블을 추가하는 방법을 생각했다.  
 하지만 이건 내 생각이지 근거가 부족한 것 같다.
 
@@ -152,7 +158,9 @@ group by r.username;
 - 쿼리 시간도 짧고 실행계획도 짧아졌다.
   다음에는 DB 형상관리 툴을 조사하여 DB Refactoring 으로 바뀔 데이터베이스 관리를 할 수 있도록 해야겠다.
 
-- 또한 API를 호출했을 때와 같은 비즈니스 로직 측면에서의 시간 대비 쿼리 로직이    얼마나 걸리는지를 따져보기 위해서 SQL 튜닝 결과도 살펴보면 좋을 것 같다.
+- 또한 API를 호출했을 때와 같은 비즈니스 로직 측면에서의 시간 대비 쿼리 로직이 얼마나 걸리는지를 따져보기 위해서 SQL 튜닝 결과도 살펴보면 좋을 것 같다.
+
+- 현재 `Json 열`에서 매일 DAU 정도 만큼의 Update가 일어나고 있어 Json 타입으로 두는 것이 좋지 않을 것 같다.
 
 ### Reference
 - [사진 1](https://quizlet.com/kr/393279073/2-db-hony0426-flash-cards/)
