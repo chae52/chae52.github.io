@@ -76,9 +76,7 @@ DB Refactoring 절차 중 내가 하고 싶은 것만 골라 적었다..
 
 ## 1. DB Smell
 정확히 일치하는 DB Smell이 있진 않지만 **Multi-Purpose Table** 라고 생각했다.
-> **Multi-Purpose Table**
-
-
+> **Multi-Purpose Table** <br>
   단일 테이블이 여러 유형의 엔티티를 저장하는데 사용
 
 처음 ERD를 설계할 때 해당 Json 열은 사실 하나의 Entity 였다.
@@ -87,9 +85,7 @@ DB Refactoring 절차 중 내가 하고 싶은 것만 골라 적었다..
 
 ## 2. DB Refactoring 유형 선택
 `Multi-Purpose Table`을 해결하기 위해한 DB Refactoring 방법으로 `구조 리팩토링`이 적절하다고 생각했다.
-> **구조 리팩토링**
-
-
+> **구조 리팩토링** <br>
   데이터베이스 스키마의 테이블 구조 변경
 
 Json 열을 다시 하나의 Entity로 가정하여 새로운 테이블을 추가하는 방법을 생각했다.  
