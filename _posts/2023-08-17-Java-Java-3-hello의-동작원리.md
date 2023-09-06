@@ -3,11 +3,11 @@ title: "[즐거운 자바] hello의 동작원리"
 excerpt: "class, method, field, compile"
 
 categories:
-  - Language
+  - Java
 tags:
   - [java, 즐거운 자바, inflearn, hello의 동작원리]
 
-permalink: /Language/Java-hello의-동작원리/
+permalink: /Programming/Java/Java-hello의-동작원리/
 
 toc: true
 toc_sticky: true

@@ -18,11 +18,15 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "Dev"
-    url: /categories/Dev/
-  - title: "Language"
-    url: /categories/Language/
-  - title: "Categories3"
-    url: /categories/categories3/
-  - title: "Categories4"
-    url: /categories/categories4/
+  - title: "Programming"
+    children:
+      - title: "Java"
+        url: /categories/Programming/Language/
+      - title: "Git"
+        url: /categories/Programming/Git/
+      - title: "Spring"
+        url: /categories/Programming/Spring/
+      - title: "ETC"
+        url: /categories/Programming/ETC/
+  - title: "DB"
+    url: /categories/DB/

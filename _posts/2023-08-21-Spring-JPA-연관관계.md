@@ -1,13 +1,13 @@
 ---
 title: "[Spring] JPA 연관관계로 Join 구현"
-excerpt: "본문의 주요 내용을 여기에 입력하세요"
+excerpt: "연관관계, 주인, 다중성"
 
 categories:
-  - Dev
+  - Spring
 tags:
   - [jpa, spring, 연관관계, join]
 
-permalink: /Dev/JPA-연관관계/
+permalink: /Programming/Spring/JPA-연관관계/
 
 toc: true
 toc_sticky: true

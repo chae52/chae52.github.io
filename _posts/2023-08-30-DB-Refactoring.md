@@ -3,11 +3,11 @@ title: "[DB] DB Refactoring: 필요성 및 근거 찾기"
 excerpt: "왜 DB refactoring을 해야만 하는가? 방법, 절차, 근거"
 
 categories:
-  - Dev
+  - DB
 tags:
   - [Database, DB, refactoring,리팩토링, 이유, 근거, 필요성]
 
-permalink: /Dev/DB Refactoring 필요성 및 근거 찾기/
+permalink: /DB/DB Refactoring 필요성 및 근거 찾기/
 
 toc: true
 toc_sticky: true

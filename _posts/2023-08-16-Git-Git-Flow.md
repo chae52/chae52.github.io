@@ -1,13 +1,13 @@
 ---
-title: "[Dev] Git Flow 적용. Git Flow & Github Flow"
+title: "[Git] Git Flow 적용. Git Flow & Github Flow"
 excerpt: "Git Flow 와 Github Flow"
 
 categories:
-  - Dev
+  - Git
 tags:
   - [Git Flow, Github Flow]
 
-permalink: /Dev/[Dev] Git Flow 적용. Git Flow & Github Flow/
+permalink: /Programming/Git/[Dev] Git Flow 적용. Git Flow & Github Flow/
 
 toc: true
 toc_sticky: true

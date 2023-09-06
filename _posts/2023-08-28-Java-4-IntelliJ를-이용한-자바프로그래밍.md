@@ -3,11 +3,11 @@ title: "[즐거운 자바] IntelliJ를 이용한 자바프로그래밍"
 excerpt: "IntelliJ, Project 생성"
 
 categories:
-  - Language
+  - Java
 tags:
   - [java, 즐거운 자바, inflearn, intellij]
 
-permalink: /Language/IntelliJ를-이용한-자바프로그래밍/
+permalink: /Programming/Java/IntelliJ를-이용한-자바프로그래밍/
 
 toc: true
 toc_sticky: true

@@ -1,13 +1,13 @@
 ---
-title: "[Dev] Full stack Testing : 풀스택 테스팅"
+title: "[Test] Full stack Testing : 풀스택 테스팅"
 excerpt: "풀스택 테스팅 & 시프트 레스트 테스팅"
 
 categories:
-  - Dev
+  - ETC
 tags:
   - [Full stack, test, testing]
 
-permalink: /Dev/[Dev] Full stack Testing/
+permalink: /Programming/ETC/[Test]-Full-stack-Testing/
 
 toc: true
 toc_sticky: true

@@ -1,9 +1,9 @@
 ---
-title: "Language"
+title: "ETC"
 layout: category
-permalink: /categories/Language/
+permalink: /categories/Programming/ETC/
 author_profile: true
-taxonomy: Language
+taxonomy: ETC
 sidebar:
   nav: "categories"
 ---
