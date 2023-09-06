@@ -27,10 +27,10 @@ JDBC에 직접 SQL 쿼리 문을 넣고 있었다.
 
 ```java
 @Override
-    public List<MyRankingInfoDto> findRankingInfoList(){
-        private String rankingList="SELECT * FROM member"
-        List<MyRankingInfoDto> certRankingList = template.query(rankingList, rankingRowMapper());
-        return certRankingList;
+public List<MyRankingInfoDto> findRankingInfoList(){
+    private String rankingList="SELECT * FROM member"
+    List<MyRankingInfoDto> certRankingList = template.query(rankingList, rankingRowMapper());
+    return certRankingList;
     }
 ```
 위의 예시에서는 간단한 쿼리를 넣어서 왜 따로 빼야하는지 눈에 잘 보이지 않지만, 길다고 상상해주면 좋을 것 같다.  
@@ -38,7 +38,7 @@ JDBC에 직접 SQL 쿼리 문을 넣고 있었다.
 # 해결 과정
 
 ## xml 파일 생성
-resources 아래에 xml 파일을 만들어준다
+resources 아래에 xml 파일을 만들어준다.  
 <img width="312" alt="image" src="https://github.com/chae52/Auto-Comment/assets/41178045/75e9ff76-47c7-407c-af61-1f3e3b6517ac">
 
 ```xml
@@ -53,24 +53,26 @@ select
 </properties>
 ```
 사용할 쿼리를 넣고 알맞은 key 로 지정한다.
-주의할 점은 xml이 `<` 해당 부호를 처리할 떄 ,`&lt;`로 처리해야 한다는 점이다.
+
+
+주의할 점은 xml이 `<` 해당 부호를 처리할 때, `&lt;`로 처리해야 한다는 점이다.
 
 ```sql
 current_date &lt;= m.date
 ```
 위의 예시는 current_date <= m.date 와 같은 의미이다. 
 
-## Spring Boot 3 수정
+## Spring 수정
 ```Java
 import org.springframework.beans.factory.annotation.Value;
 @PropertySource("classpath:sql.xml")
 public class MemberJdbcWebRepository implements MemberWebRepository {
-  @Value("${rankingListSQL}")
-  String rankingList;
-  @Override
-  public List<MyRankingInfoDto> findRankingInfoList(){
-      List<MyRankingInfoDto> certRankingList = template.query(rankingList, rankingRowMapper());
-      return certRankingList;
+    @Value("${rankingListSQL}")
+    String rankingList;
+    @Override
+    public List<MyRankingInfoDto> findRankingInfoList(){
+        List<MyRankingInfoDto> certRankingList = template.query(rankingList, rankingRowMapper());
+        return certRankingList;
   }
 }
 ```
