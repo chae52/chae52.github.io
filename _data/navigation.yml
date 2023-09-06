@@ -21,7 +21,7 @@ categories:
   - title: "Programming"
     children:
       - title: "Java"
-        url: /categories/Programming/Language/
+        url: /categories/Programming/Java/
       - title: "Git"
         url: /categories/Programming/Git/
       - title: "Spring"
