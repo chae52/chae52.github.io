@@ -63,8 +63,10 @@ current_date &lt;= m.date
 위의 예시는 current_date <= m.date 와 같은 의미이다. 
 
 ## Spring 수정
-```Java
+
+```java
 import org.springframework.beans.factory.annotation.Value;
+
 @PropertySource("classpath:sql.xml")
 public class MemberJdbcWebRepository implements MemberWebRepository {
     @Value("${rankingListSQL}")
@@ -76,6 +78,7 @@ public class MemberJdbcWebRepository implements MemberWebRepository {
   }
 }
 ```
+
 ### @PropertySource
 사용할 클래스에 annotation을 붙혀준다. `classpath:` 는 src/resources/를 의미한다.  
 그래서 아까 resources 아래에 `sql.xml`` 이라는 파일을 만들었으니 해당 파일 이름만 적어주었다.
