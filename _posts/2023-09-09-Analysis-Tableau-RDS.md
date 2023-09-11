@@ -7,7 +7,7 @@ categories:
 tags:
   - [Tableau, rds, database, 연결, 보안그룹]
 
-permalink: /Programming/Analysis/Tableau-RDS-보안그룹/
+permalink: /Data/Analysis/Tableau-RDS-보안그룹/
 
 toc: true
 toc_sticky: true
@@ -15,15 +15,15 @@ toc_sticky: true
 date: 2023-09-09
 last_modified_at: 2023-09-09
 ---
-태블로에서 AWS의 Database 서비스를 사용할 수 있을지 궁금했었다
+태블로에서 AWS의 Database 서비스를 사용할 수 있을지 궁금했었다  
 결론은 된다.
 
-하지만 RDS는 보안그룹으로 인바운드가 막혀있기 떄문에 어떤 IP를 열어 주어야  
+하지만 RDS는 보안그룹으로 인바운드가 막혀있기 떄문에 어떤 IP를 열어 주어야    
 태블로에서도 RDS의 데이터베이스에 접근할 수 있을지 알아보고 적용해보자
 
 
 # 1. RDS region 확인
-먼저 RDS의 region을 확인한다
+먼저 RDS의 region을 확인한다  
 <img width="333" alt="image" src="https://github.com/Sejong-Kaggle-Challengers-2nd/chaewon/assets/41178045/3004d914-eb28-468c-bcfd-6b5f3c4d5983">
 northeast임을 확인할 수 있다
 
