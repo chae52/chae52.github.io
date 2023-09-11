@@ -30,3 +30,9 @@ categories:
         url: /categories/Programming/ETC/
   - title: "DB"
     url: /categories/DB/
+  - title: "Data"
+    children:
+      - title: "Analysis"
+        url: /categories/Data/Analysis/
+      - title: "AI"
+        url: /categories/Data/AI/
