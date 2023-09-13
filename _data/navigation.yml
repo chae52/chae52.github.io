@@ -26,6 +26,8 @@ categories:
         url: /categories/Programming/Git/
       - title: "Spring"
         url: /categories/Programming/Spring/
+      - title: "Cloud"
+        url: /categories/Programming/Cloud/
       - title: "ETC"
         url: /categories/Programming/ETC/
   - title: "DB"
