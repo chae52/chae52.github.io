@@ -1,5 +1,5 @@
 ---
-title: "[Git] [Git] Permission denied, unable to access, publickey 에러"
+title: "[Git] Permission denied, unable to access, publickey 에러"
 excerpt: "Token으로 Git config 설정시 마주치는 (모든) 에러와 과정"
 
 categories:
@@ -31,7 +31,6 @@ fatal: unable to access 'https://github.com/user/repository-name.git/': The requ
 
 순으로 진행으로 해결했다.
 
-# Token 생성
 ## 1. Profile > Settings > Developer Settings
 <img width="309" alt="image" src="https://github.com/Sejong-Kaggle-Challengers-2nd/chaewon/assets/41178045/b87ca2b0-2339-49d1-9ca4-9cf459af73bf">
 <img width="558" alt="image" src="https://github.com/Sejong-Kaggle-Challengers-2nd/chaewon/assets/41178045/2c641535-968f-4fec-904a-bd9573221161">
