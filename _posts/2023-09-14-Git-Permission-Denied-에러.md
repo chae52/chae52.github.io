@@ -123,7 +123,7 @@ token 설정에 들어간다.
 정리하자면 fine-grained personal access token 이든, personal access token(classic)이든 상관없이  
 organization 접근을 허용한다고 설정해준다.  
 
-## 5. ssh key gen
+## 6. ssh key gen
 ```shell
 ssh-keygen -t rsa -C "github에서 사용하는 email"
 ```
