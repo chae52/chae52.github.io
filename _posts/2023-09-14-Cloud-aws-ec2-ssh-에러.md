@@ -7,7 +7,7 @@ categories:
 tags:
   - [AWS, EC2, ssh, key, known,hosts, add, correct]
 
-permalink: /Programming/Cloud/EC2-SSH-add-host-error/
+permalink: /Cloud/EC2-SSH-add-host-error/
 
 toc: true
 toc_sticky: true

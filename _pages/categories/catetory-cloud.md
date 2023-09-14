@@ -1,7 +1,7 @@
 ---
 title: "Cloud"
 layout: category
-permalink: /categories/Programming/Cloud/
+permalink: /categories/Cloud/
 author_profile: true
 taxonomy: Cloud
 sidebar:
