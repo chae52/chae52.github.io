@@ -5,7 +5,7 @@ excerpt: "Token으로 Git config 설정시 마주치는 (모든) 에러와 과�
 categories:
   - Git
 tags:
-  - [Git Flow, Github Flow]
+  - [Git, permission, denied, access, unable, key, ssh, token]
 
 permalink: /Programming/Git/[Git]-Permission-denied-unable-to-access-publickey-에러/
 
