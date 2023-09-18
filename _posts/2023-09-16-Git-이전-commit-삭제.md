@@ -1,6 +1,6 @@
 ---
-title: "[Git] Permission denied, unable to access, publickey 에러"
-excerpt: "Token으로 Git config 설정시 마주치는 (모든) 에러와 과정"
+title: "[Git] commit 삭제하기"
+excerpt: "Github 상에서의 commit log까지 삭제하는 방법"
 
 categories:
   - Git
