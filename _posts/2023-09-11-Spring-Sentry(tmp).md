@@ -1,5 +1,5 @@
 ---
-title: "[Sentry-알림"
+title: "[Sentry] Notification"
 excerpt: "Sentry-알림"
 
 categories:

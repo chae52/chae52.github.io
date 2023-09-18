@@ -1,13 +1,13 @@
 ---
-title: "[Git] commit 삭제하기"
-excerpt: "Github 상에서의 commit log까지 삭제하는 방법"
+title: "[Git] Permission denied, unable to access, publickey 에러"
+excerpt: "Token으로 Git config 설정시 마주치는 (모든) 에러와 과정"
 
 categories:
   - Git
 tags:
-  - [이전, 삭제, 커밋, 되돌리기, Github, git, commit, delete, force, push]
+  - [Git, permission, denied, access, unable, key, ssh, token]
 
-permalink: /Programming/Git/[Git]이전-commit-삭제/
+permalink: /Programming/Git/[Git]-이전-commit-삭제/
 
 toc: true
 toc_sticky: true
