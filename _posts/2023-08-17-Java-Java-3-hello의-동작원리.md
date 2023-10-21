@@ -34,6 +34,8 @@ ex) main method
 - System : 클래스
 - out : 필드
 - println("") : 메소드
+  - print = 출력만 됨
+  - println = print line = 출력하고 줄 바꿈까지 함
 
 [Java API 문서](https://docs.oracle.com/javase/8/docs/api/java/lang/System.html)에 자세히 내용들이 적혀 있다
 
@@ -44,6 +46,7 @@ ex) main method
 - java는 CPU 에 상관없이 실행되도록 되어 있음
   - 그래서 java는 기계어와 사람언어 중간 형태인 바이트 코드를 생성한다
   - JVM이 CPU별로 존재한다
+  
 ### Interpreter 방식
 1. 컴파일
 2. 바이트 코드 만들어짐
