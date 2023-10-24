@@ -27,20 +27,21 @@ last_modified_at: 2023-10-24
 
 
 ## DB 연결
-Create New를 클릭한다.  
+Create New를 클릭한 다음 'From AWS'를 고른다
+
 <img width="1376" alt="image" src="https://github.com/Sejong-Kaggle-Challengers-2nd/chaewon/assets/41178045/d2b0190a-f8d0-46b3-9386-bceca3f054bd">
 <img width="493" alt="image" src="https://github.com/Sejong-Kaggle-Challengers-2nd/chaewon/assets/41178045/8dfa1068-7e47-4323-ae74-f07482277ea2">
 
 자신이 사용하고 있는 DB 종류를 골라준다.  
 
-<img width="302" alt="image" src="https://github.com/Sejong-Kaggle-Challengers-2nd/chaewon/assets/41178045/d340e299-eab4-4f22-9e0b-b9227708014a">
+<img width="302" alt="image" src="https://github.com/Sejong-Kaggle-Challengers-2nd/chaewon/assets/41178045/d340e299-eab4-4f22-9e0b-b9227708014a">  
 aws 에서 리전을 확인하여 선택해준다.  
 
 여기는 잘 기억이 안나는데 AWS에서 IAM 만들어서 아래와 같이 등록해주면  
 <img width="826" alt="스크린샷 2023-10-24 오후 1 01 53" src="https://github.com/Sejong-Kaggle-Challengers-2nd/chaewon/assets/41178045/a0dad7c0-b7dd-474d-9ddd-471ad5ace31d">
 알아서 내 계정의 DB 인스턴스를 가져와준다.
 
-<img width="715" alt="스크린샷 2023-10-24 오후 1 05 11" src="https://github.com/Sejong-Kaggle-Challengers-2nd/chaewon/assets/41178045/9b87eee1-3f7e-4d02-88a5-4d03b98b422f">  
+
 <img width="715" alt="스크린샷 2023-10-24 오후 1 05 11" src="https://github.com/Sejong-Kaggle-Challengers-2nd/chaewon/assets/41178045/9b87eee1-3f7e-4d02-88a5-4d03b98b422f">  
 위에는 db 이름
 <img width="715" alt="image" src="https://github.com/Sejong-Kaggle-Challengers-2nd/chaewon/assets/41178045/49c0bf76-092a-4420-8bf2-d6f73c78e2ba">
@@ -57,7 +58,7 @@ Test Connection을 눌러 테스트도 통과!
 
 # 앱에서 사용
 
-아까 등록한 DB를 사용하기 위해서 앱으로 이동한다
+등록한 DB를 사용하기 위해서 앱으로 이동한다
 
 <img width="520" alt="image" src="https://github.com/Sejong-Kaggle-Challengers-2nd/chaewon/assets/41178045/af8c1558-652b-4f87-b3a8-ee3695039174">
 
