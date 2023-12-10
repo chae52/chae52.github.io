@@ -1,9 +1,9 @@
 ---
-title: "AI"
+title: "후기 정보"
 layout: category
-permalink: /categories/Data/AI/
+permalink: /categories/Review/
 author_profile: true
-taxonomy: AI
+taxonomy: review
 sidebar:
   nav: "categories"
 ---

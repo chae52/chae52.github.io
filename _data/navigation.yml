@@ -36,5 +36,5 @@ categories:
     children:
       - title: "Analysis"
         url: /categories/Data/Analysis/
-      - title: "AI"
-        url: /categories/Data/AI/
+  - title: "각종 후기"
+    url: /categories/Review/
