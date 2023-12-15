@@ -1,6 +1,6 @@
 ---
 title: "[즐거운 자바] 문자(char) 타입"
-excerpt: ""
+excerpt: "char, 유니코드, 문자->정수 변환"
 
 categories:
   - Java
